@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea2.MainPage">
+
+    <StackLayout BackgroundColor="#f3eae8">
+        <Frame BackgroundColor="#2196F" Padding="24" CornerRadius="0" >
+            <Label Text="Informacion Personal" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+        </Frame>
+        <Label Text="Nombres" FontSize="Title" Padding="20,0,20,0" TextColor="Black" />
+        <Entry x:Name="nombres" Placeholder="" Keyboard="Text" Margin="20,0,20,10" BackgroundColor="#2093d8"/>
+
+        <Label Text="Apellidos" FontSize="Title" Padding="20,0,20,0" TextColor="Black" />
+        <Entry x:Name="apellidos" Placeholder="" Keyboard="Text" Margin="20,0,20,10" BackgroundColor="#2093D8" />
+
+        <Label Text="Edad" FontSize="Title" Padding="20,0,20,0" TextColor="Black" />
+        <Entry x:Name="edad" Placeholder="" Keyboard="Numeric" Margin="20,0,20,10" BackgroundColor="#2093D8" />
+
+        <Label Text="Correo Electronico" FontSize="Title" Padding="20,0,20,0" TextColor="Black" />
+        <Entry x:Name="correo" Placeholder="" Keyboard="Email" Margin="20,0,20,10" BackgroundColor="#2093D8" />
+
+        <Button Text="Enviar Informacion" Clicked="Button_Clicked" x:Name="btnenviar" Margin="20,30,20,10" TextColor="Black" BackgroundColor="#EFC966"/>
+
+
+    </StackLayout>
+</ContentPage>

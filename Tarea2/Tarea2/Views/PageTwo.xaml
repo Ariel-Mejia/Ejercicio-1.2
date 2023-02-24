@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea2.Views.PageTwo">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#f8e1dd">
+
+            <Label Text="{Binding Resultado}"
+                   FontSize="30" TextColor="Black"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" x:Name="LbResultado"/>
+
+            <Label Text="{Binding nombres}"
+                   FontSize="30" Margin="0,0,0,0" TextColor="Black" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="Lbnombres" />
+
+            <Label Text="{Binding apellidos}"
+                   FontSize="30" Margin="0,0,0,0" TextColor="Black"  
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="Lbapellidos" />
+
+            <Label Text="{Binding edad}"
+                   FontSize="30" Margin="0,0,0,0" TextColor="Black"  
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="Lbedad" />
+
+            <Label Text="{Binding correo}"
+                   FontSize="25" Margin="0,0,0,0" TextColor="Black" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="Lbcorreo" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
